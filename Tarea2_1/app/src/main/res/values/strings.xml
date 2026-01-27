@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tarea2_1</string>
+    <string name="txtDificultad">Dificultad elegida</string>
+    <string name="txtBBDD">Base de datos</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_off">Interna SQLite</string>
+    <string name="attachment_summary_on">Externa MySQL, MariaDB</string>
+
+    <!-- Apartado Juego -->
+    <string name="tituloJuego">Juego</string>
+    <string name="dificultad">Dificultad elegida</string>
+    <string name="tituloTipoDDBB">Tipo de BD</string>
+    <string name="opcionBBDD">Base de datos</string>
+    <string name="textoInfo">Pulsa el botón HOME o ATRÁS para volver</string>
+    <string name="nombreBBDD">Nombre de la BD</string>
+    <string name="ipServidor">IP del servidor</string>
+</resources>

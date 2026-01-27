@@ -1,0 +1,52 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/tituloJuego">
+
+        <ListPreference
+            android:defaultValue="Medio"
+            android:entries="@array/dificultad_entries"
+            android:entryValues="@array/dificultad_values"
+            android:key="list_preference_1"
+            android:title="@string/dificultad"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/tituloTipoDDBB">
+
+        <SwitchPreferenceCompat
+            app:icon="@drawable/database"
+            app:key="bd"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:title="@string/opcionBBDD" />
+
+        <PreferenceCategory android:title="Servidor Externo">
+
+            <EditTextPreference
+                android:defaultValue="Default value"
+                android:dependency="bd"
+                android:key="nombre"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="@string/nombreBBDD"
+                app:icon="@drawable/edit"
+                app:useSimpleSummaryProvider="true"/>
+
+            <EditTextPreference
+                android:defaultValue="Default value"
+                android:dependency="bd"
+                android:key="ip"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="@string/ipServidor"
+                app:icon="@drawable/ip"
+                app:useSimpleSummaryProvider="true"/>
+        </PreferenceCategory>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/textoInfo">
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListaCompraSQLIte</string>
+    <string name="añadir">Añadir</string>
+    <string name="titulo">Lista de la compra</string>
+    <string name="producto">Producto</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="btSalir">Salir</string>
+    <string name="btLimpiar">Limpiar</string>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tarea2_2</string>
+    <!-- Textos de la interfaz -->
+    <string name="txtNombreFichero">Nombre del fichero:</string>
+    <string name="txtNota">Escribe tu nota aquí</string>
+    <string name="txtbtnGuardar">Guardar</string>
+    <string name="txtbtnLeer">Leer</string>
+    <string name="txtbtnGuardarSD">Guardar SD</string>
+    <string name="txtbtnLeerSD">Leer SD</string>
+    <string name="txtbtnBorrar">Borrar</string>
+
+    <!-- Mensajes de la app -->
+    <string name="msg_save_ok">Nota guardada correctamente</string>
+    <string name="msg_load_ok">Nota cargada correctamente</string>
+    <string name="msg_readwrite_error">Error al leer/escribir el fichero</string>
+    <string name="msg_file_not_found">Fichero no encontrado</string>
+</resources>

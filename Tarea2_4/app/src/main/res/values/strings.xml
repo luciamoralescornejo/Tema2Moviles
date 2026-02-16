@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Actividad2_4</string>
+    <string name="title_home">Lista de la compra</string>
+    <string name="title_dashboard">Alta producto</string>
+    <string name="hint_cantidad">Introduce la cantidad</string>
+    <string name="hint_producto">Introduce el producto</string>
+    <string name="Boton_Aceptar">Aceptar</string>
+    <string name="titulo">Lista de la compra</string>
+    <string name="editar">Editar</string>
+    <string name="borrar">Borrar</string>
+    <string name="anadir">Añadir</string>
+</resources>
